@@ -1,5 +1,5 @@
 INSERT INTO Artist(id, nickname)
-values
+VALUES
 	('1', 'Tricky'),
 	('2', 'Moby'),
 	('3', 'PJ Harvey'),
