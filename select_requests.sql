@@ -1,4 +1,4 @@
-SELECT title, year FROM album
+SELECT title, year FROM Album
 WHERE year = 2018;
 
 SELECT name, duration FROM Track
@@ -14,5 +14,5 @@ WHERE year BETWEEN 2018 and 2020;
 SELECT nickname FROM Artist 
 WHERE NOT nickname like '%% %%';
 
-SELECT name FROM track
+SELECT name FROM Track
 WHERE name LIKE '%my%';
